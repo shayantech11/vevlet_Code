@@ -10,13 +10,13 @@ import Loader from "@/components/Loader";
 export const metadata = {
   metadataBase: new URL("https://apturatechsolutions.tech"),
   title: {
-    default: "Aptura Tech Solutions | Software Development & AI Company in Pakistan",
-    template: "%s | Aptura Tech Solutions",
+    default: "CodeVelvet | Software Development & AI Company in Pakistan",
+    template: "%s | CodeVelvet",
   },
   description:
-    "Aptura Tech Solutions is a leading software development company in Pakistan offering Web Development, App Development, AI Solutions, UI/UX Design, Cybersecurity, and IoT services. We engineer intelligent digital products for startups and enterprises.",
+    "CodeVelvet is a leading software development company in Pakistan offering Web Development, App Development, AI Solutions, UI/UX Design, Cybersecurity, and IoT services. We engineer intelligent digital products for startups and enterprises.",
   keywords: [
-    "Aptura Tech Solutions",
+    "CodeVelvet",
     "software development company Pakistan",
     "web development Peshawar",
     "AI solutions Pakistan",
@@ -34,9 +34,9 @@ export const metadata = {
     "Peshawar tech company",
     "software house Pakistan",
   ],
-  authors: [{ name: "Aptura Tech Solutions", url: "https://apturatechsolutions.tech" }],
-  creator: "Aptura Tech Solutions",
-  publisher: "Aptura Tech Solutions",
+  authors: [{ name: "CodeVelvet", url: "https://apturatechsolutions.tech" }],
+  creator: "CodeVelvet",
+  publisher: "CodeVelvet",
   formatDetection: {
     email: false,
     address: false,
@@ -49,8 +49,8 @@ export const metadata = {
     type: "website",
     locale: "en_US",
     url: "https://apturatechsolutions.tech",
-    siteName: "Aptura Tech Solutions",
-    title: "Aptura Tech Solutions | Software Development & AI Company",
+    siteName: "CodeVelvet",
+    title: "CodeVelvet | Software Development & AI Company",
     description:
       "We engineer intelligent software, AI systems, and digital products. Custom web & app development, cybersecurity, and IoT solutions for businesses worldwide.",
     images: [
@@ -127,8 +127,8 @@ export default function RootLayout({ children }) {
       <head>
         <link rel="manifest" href="/manifest.json" />
         <meta name="theme-color" content="#008080" />
-        <link rel="icon" href="/newLogo.png" />
-        <link rel="apple-touch-icon" href="/newLogo.png" />
+        <link rel="icon" href="/logoo.png" />
+        <link rel="apple-touch-icon" href="/logoo.png" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}

@@ -801,14 +801,14 @@ const ContactMain = () => {
               }}
             />
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3320.552391328333!2d73.03121527533824!3d33.68444037331807!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38dfbfb2bfc1dafd%3A0x5a1b583b641e6f1e!2sE-11%2C%20Islamabad%2C%20Islamabad%20Capital%20Territory%2C%20Pakistan!5e0!3m2!1sen!2s!4v1698765432107!5m2!1sen!2s"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3307.7451203368278!2d71.42299717524048!3d33.99907997317706!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38d91054b7e33661%3A0x30048547e074197d!2sUnited%20Shopping%20Plaza!5e0!3m2!1sen!2s!4v1778088121639!5m2!1sen!2s"
               width="100%"
               height="400"
               style={{ border: 0, filter: "invert(90%) hue-rotate(180deg)" }}
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Aptura Head Office - Islamabad"
+              title="CodeVelvet Office - United Shopping Plaza"
             />
           </div>
         </div>

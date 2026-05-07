@@ -14,7 +14,7 @@ const FooterMain = () => {
       {/* Giant watermark */}
       <div className="absolute bottom-0 left-1/2 -translate-x-1/2 pointer-events-none select-none">
         <span className="text-[8rem] md:text-[14rem] lg:text-[18rem] font-heading font-bold text-white/[0.02] leading-none tracking-tight">
-          APTURA
+          CODEVELVET
         </span>
       </div>
 
@@ -25,8 +25,8 @@ const FooterMain = () => {
           <div className="lg:col-span-4">
             <Link href="/" className="flex items-center gap-3 group mb-5">
               <Image
-                src="/newLogo.png"
-                alt="Aptura Tech Solutions Logo"
+                src="/logoo.png"
+                alt="CODEVELVET Logo"
                 width={200}
                 height={200}
                 quality={100}
@@ -35,10 +35,10 @@ const FooterMain = () => {
               />
               <div className="flex flex-col justify-center leading-none">
                 <span className="font-heading text-xl md:text-2xl font-bold tracking-[0.05em] text-white leading-none">
-                  APTURA
+                  CODEVELVET
                 </span>
                 <span className="text-[0.6rem] font-medium tracking-[0.3em] text-gray-400 mt-1 uppercase">
-                  TECH SOLUTIONS
+                  Where Code Meets Elegance
                 </span>
               </div>
             </Link>
@@ -167,8 +167,8 @@ const FooterMain = () => {
         <div className="flex flex-col md:flex-row gap-3 items-center justify-between py-5 text-xs text-[#94a3b8]/60">
           <div className="flex items-center gap-2">
             <Image
-              src="/newLogo.png"
-              alt="Aptura"
+              src="/logoo.png"
+              alt="CodeVelvet"
               width={50}
               height={50}
               unoptimized={true}
@@ -177,7 +177,7 @@ const FooterMain = () => {
             <p>
               &copy; {new Date().getFullYear()}{" "}
               <Link href="/" className="hover:text-white transition-colors duration-200">
-                Aptura Tech Solutions
+                CodeVelvet
               </Link>
               . All rights reserved.
             </p>
@@ -213,7 +213,7 @@ const FooterMain = () => {
               rel="noopener noreferrer"
               className="text-[#5f9ea0]/50 hover:text-[#f4e1c1] transition-colors duration-300"
             >
-              Muzamil Shiraz
+              CodeVELVET
             </a>
           </span>
         </div>

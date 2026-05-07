@@ -231,7 +231,7 @@ export default function TeamPage() {
               className="gradient-text"
               style={{ fontFamily: "var(--font-heading)" }}
             >
-              Behind Aptura
+              Behind CodeVelvet
             </span>
           </h1>
 

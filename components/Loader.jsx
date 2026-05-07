@@ -58,7 +58,7 @@ const Loader = () => {
   useEffect(() => {
     // Skip if already shown this session
     try {
-      if (sessionStorage.getItem("aptura_loaded")) {
+      if (sessionStorage.getItem("codevelvet_loaded")) {
         setDismissed(true);
         return;
       }
@@ -67,7 +67,7 @@ const Loader = () => {
     // Dismiss after animation completes (~3.6s)
     const timer = setTimeout(() => {
       setDismissed(true);
-      try { sessionStorage.setItem("aptura_loaded", "1"); } catch (e) {}
+      try { sessionStorage.setItem("codevelvet_loaded", "1"); } catch (e) {}
     }, 3800);
 
     return () => clearTimeout(timer);
@@ -158,14 +158,14 @@ const Loader = () => {
           100% { opacity: 0; transform: scale(0) translate(var(--sp-dx), var(--sp-dy)); }
         }
 
-        .aptura-loader-root {
+        .codevelvet-loader-root {
           animation: loaderExit 3.8s cubic-bezier(0.76, 0, 0.24, 1) forwards;
         }
       `}} />
 
       <div
         ref={containerRef}
-        className="aptura-loader-root fixed inset-0 z-[9999] flex flex-col items-center justify-center overflow-hidden"
+        className="codevelvet-loader-root fixed inset-0 z-[9999] flex flex-col items-center justify-center overflow-hidden"
         style={{
           background: "radial-gradient(ellipse at 50% 40%, #111215 0%, #0A0A0B 60%, #050506 100%)",
         }}
@@ -269,10 +269,10 @@ const Loader = () => {
             })}
           </g>
 
-          {/* Phase 2 — Core "A" (start at 1.4s) */}
+          {/* Phase 2 — Core "C" (start at 1.4s) */}
           <g filter="url(#core-glow)">
             <path
-              d="M 100 65 L 76 135 M 100 65 L 124 135 M 84 116 L 116 116"
+              d="M 122 80 C 115 68 103 62 90 65 C 72 69 63 85 65 102 C 67 119 80 132 97 133 C 110 134 121 127 127 116"
               fill="none"
               stroke="url(#core-grad)"
               strokeWidth="3.5"
@@ -284,13 +284,13 @@ const Loader = () => {
               style={{ animation: "coreADraw 0.75s 1.45s ease-in-out forwards" }}
             />
             <circle
-              cx="100"
-              cy="65"
+              cx="122"
+              cy="80"
               r="4"
               fill="rgba(0,128,128,0.4)"
               opacity="0"
               style={{
-                transformOrigin: "100px 65px",
+                transformOrigin: "122px 80px",
                 animation: "coreGlowPulse 0.5s 1.85s ease-out forwards",
               }}
             />
@@ -324,7 +324,7 @@ const Loader = () => {
             className="font-heading text-[1.6rem] sm:text-[1.85rem] font-bold text-white"
             style={{ letterSpacing: "0.5em", paddingLeft: "0.5em" }}
           >
-            APTURA
+            CODEVELVET
           </span>
           <span
             className="text-[0.6rem] sm:text-[0.65rem] font-medium tracking-[0.35em] text-[#5f9ea0]/70 uppercase"
@@ -333,7 +333,7 @@ const Loader = () => {
               animation: "subtitleFade 0.5s 2.2s ease-out forwards",
             }}
           >
-            TECH SOLUTIONS
+            Where Code Meets Elegance
           </span>
         </div>
 

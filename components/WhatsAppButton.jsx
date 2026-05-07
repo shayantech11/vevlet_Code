@@ -8,7 +8,7 @@ const WhatsAppButton = () => {
   const [showTooltip, setShowTooltip] = useState(false);
 
   const phoneNumber = "923315085483";
-  const message = encodeURIComponent("Hi Aptura! I'd like to discuss a project.");
+  const message = encodeURIComponent("Hi CodeVelvet! I'd like to discuss a project.");
   const whatsappUrl = `https://wa.me/${phoneNumber}?text=${message}`;
 
   return (

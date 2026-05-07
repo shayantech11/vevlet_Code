@@ -133,8 +133,8 @@ const Navbar = () => {
           onClick={() => router.push("/")}
         >
           <Image
-            src="/newLogo.png"
-            alt="Aptura Tech Solutions Logo"
+            src="/logoo.png"
+            alt="CodeVelvet Logo"
             width={200}
             height={200}
             quality={100}
@@ -144,10 +144,10 @@ const Navbar = () => {
           />
           <div className="flex flex-col justify-center leading-none">
             <span className="font-heading text-xl md:text-2xl font-bold tracking-[0.05em] text-white leading-none">
-              APTURA
+              CODEVELVET
             </span>
             <span className="text-[0.65rem] font-medium tracking-[0.3em] text-gray-400 mt-1 uppercase">
-              TECH SOLUTIONS
+              Where Code Meets Elegance
             </span>
           </div>
         </div>
