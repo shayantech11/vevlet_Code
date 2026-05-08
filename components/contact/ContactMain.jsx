@@ -86,7 +86,7 @@ const ContactMain = () => {
           phone: formData.phone,
           subject: formData.subject,
           message: formData.message,
-          to_email: "apturatechsolution@gmail.com",
+          to_email: "mshayanyounastech@gmail.com",
           reply_to: formData.email,
         },
         "Cpn322BDQ9EFLPqiq",
@@ -710,10 +710,10 @@ const ContactMain = () => {
                         <FaPhoneAlt className="text-[#008080]/70 group-hover:text-[#008080] text-xs transition-colors duration-300" />
                       </div>
                       <a
-                        href="tel:+923315085483"
+                        href="tel:+923476801611"
                         className="text-[#94a3b8]/70 text-sm hover:text-[#f4e1c1] transition-colors"
                       >
-                        +92 331 5085483
+                        +92 347 6801611
                       </a>
                     </div>
 
@@ -728,10 +728,10 @@ const ContactMain = () => {
                         <FaEnvelope className="text-[#008080]/70 group-hover:text-[#008080] text-xs transition-colors duration-300" />
                       </div>
                       <a
-                        href="mailto:apturatechsolution@gmail.com"
+                        href="mailto:mshayanyounastech@gmail.com"
                         className="text-[#94a3b8]/70 text-sm hover:text-[#f4e1c1] transition-colors"
                       >
-                        apturatechsolution@gmail.com
+                        mshayanyounastech@gmail.com
                       </a>
                     </div>
 
@@ -746,7 +746,7 @@ const ContactMain = () => {
                         <FaWhatsapp className="text-[#25D366]/70 group-hover:text-[#25D366] text-xs transition-colors duration-300" />
                       </div>
                       <a
-                        href="https://wa.me/923315085483"
+                        href="https://wa.me/923476801611"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-[#94a3b8]/70 text-sm hover:text-[#25D366] transition-colors"

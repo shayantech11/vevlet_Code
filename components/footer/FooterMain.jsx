@@ -58,7 +58,7 @@ const FooterMain = () => {
                 <FaLinkedinIn className="w-4 h-4" />
               </a>
               <a
-                href="https://wa.me/923315085483"
+                href="https://wa.me/923476801611"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-9 h-9 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center text-[#94a3b8] hover:bg-[#25D366]/20 hover:border-[#25D366]/40 hover:text-[#25D366] transition-all duration-300"
@@ -135,16 +135,16 @@ const FooterMain = () => {
                 <span className="w-8 h-8 rounded-lg bg-[#008080]/10 border border-[#008080]/20 flex items-center justify-center flex-shrink-0">
                   <FaPhoneAlt className="text-[#008080] text-xs" />
                 </span>
-                <a href="tel:+923315085483" className="text-[#94a3b8]/80 hover:text-white transition-colors duration-200">
-                  +92 331 5085483
+                <a href="tel:+923476801611" className="text-[#94a3b8]/80 hover:text-white transition-colors duration-200">
+                  +92 347 6801611
                 </a>
               </div>
               <div className="flex items-center gap-3">
                 <span className="w-8 h-8 rounded-lg bg-[#008080]/10 border border-[#008080]/20 flex items-center justify-center flex-shrink-0">
                   <FaEnvelope className="text-[#008080] text-xs" />
                 </span>
-                <a href="mailto:apturatechsolution@gmail.com" className="text-[#94a3b8]/80 hover:text-white transition-colors duration-200 break-all">
-                  apturatechsolution@gmail.com
+                <a href="mailto:mshayanyounastech@gmail.com" className="text-[#94a3b8]/80 hover:text-white transition-colors duration-200 break-all">
+                  mshayanyounastech@gmail.com
                 </a>
               </div>
             </div>

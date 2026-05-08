@@ -136,7 +136,7 @@ const HeroPic = () => {
         playsInline
         className="absolute inset-0 w-full h-full object-cover scale-105"
       >
-        <source src="/HeroVideo2.mp4" type="video/mp4" />
+        <source src="/heroVideo.mp4" type="video/mp4" />
       </video>
 
       {/* Very light uniform darkening so the video pops */}

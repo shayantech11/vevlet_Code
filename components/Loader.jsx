@@ -269,10 +269,10 @@ const Loader = () => {
             })}
           </g>
 
-          {/* Phase 2 — Core "C" (start at 1.4s) */}
+          {/* Phase 2 — Core "V" (start at 1.4s) */}
           <g filter="url(#core-glow)">
             <path
-              d="M 122 80 C 115 68 103 62 90 65 C 72 69 63 85 65 102 C 67 119 80 132 97 133 C 110 134 121 127 127 116"
+              d="M 78 68 L 100 132 L 122 68"
               fill="none"
               stroke="url(#core-grad)"
               strokeWidth="3.5"
@@ -284,13 +284,13 @@ const Loader = () => {
               style={{ animation: "coreADraw 0.75s 1.45s ease-in-out forwards" }}
             />
             <circle
-              cx="122"
-              cy="80"
+              cx="100"
+              cy="132"
               r="4"
               fill="rgba(0,128,128,0.4)"
               opacity="0"
               style={{
-                transformOrigin: "122px 80px",
+                transformOrigin: "100px 132px",
                 animation: "coreGlowPulse 0.5s 1.85s ease-out forwards",
               }}
             />

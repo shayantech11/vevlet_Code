@@ -7,7 +7,7 @@ import { IoClose } from "react-icons/io5";
 const WhatsAppButton = () => {
   const [showTooltip, setShowTooltip] = useState(false);
 
-  const phoneNumber = "923315085483";
+  const phoneNumber = "923476801611";
   const message = encodeURIComponent("Hi CodeVelvet! I'd like to discuss a project.");
   const whatsappUrl = `https://wa.me/${phoneNumber}?text=${message}`;
 

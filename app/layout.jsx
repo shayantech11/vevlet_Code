@@ -104,9 +104,9 @@ export default function RootLayout({ children }) {
     },
     contactPoint: {
       "@type": "ContactPoint",
-      telephone: "+92-331-5085483",
+      telephone: "+92-347-6801611",
       contactType: "customer service",
-      email: "apturatechsolution@gmail.com",
+      email: "mshayanyounastech@gmail.com",
       availableLanguage: ["English", "Urdu"],
     },
     sameAs: [

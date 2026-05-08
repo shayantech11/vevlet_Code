@@ -29,7 +29,7 @@ const GuidanceMain = () => {
           textRefs.current.forEach((el) => {
             if (!el) return;
             if (direction === -1) {
-              gsap.to(el, { color: "#008080", duration: 0.2 });
+              gsap.to(el, { color: "#ffffff", duration: 0.2 });
             } else {
               const originalColor = el.dataset.originalColor;
               gsap.to(el, { color: originalColor || "#ffffff", duration: 0.1 });
@@ -51,7 +51,7 @@ const GuidanceMain = () => {
   return (
     <div ref={sectionRef} id="guidance-section" className="w-full h-[100vh] relative flex flex-col items-center justify-center text-center lg:py-24 md:py-24 sm:py-10 px-6 overflow-hidden bg-[#050507]">
       <div className="absolute inset-0 flex items-end justify-center pointer-events-none z-0">
-        <div ref={circleRef} className="w-[100px] h-[100px] bg-[#008080] relative top-29 rounded-full blur-[1px]"></div>
+        <div ref={circleRef} className="w-[100px] h-[100px] bg-[#7C3AED] relative top-29 rounded-full blur-[1px]"></div>
       </div>
       <div className="relative z-10 max-w-4xl p-5">
         <p className="uppercase text-sm font-mono tracking-[0.3em] text-[#94a3b8] mb-10 transition-colors duration-300" ref={addToTextRefs}>Our Philosophy</p>
