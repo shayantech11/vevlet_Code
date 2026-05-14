@@ -14,7 +14,7 @@ const DifferenceTop = () => {
       <div className="flex items-center gap-4 mb-3">
         <div className="h-px w-10 bg-gradient-to-r from-[#008080] to-transparent" />
         <span className="text-[#008080] font-mono text-[10px] tracking-[0.35em] uppercase">
-          Why CodeVelvet
+          Why VEVLET
         </span>
         <div className="h-px flex-1 max-w-[40px] bg-gradient-to-r from-[#008080]/20 to-transparent" />
       </div>

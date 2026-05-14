@@ -808,7 +808,7 @@ const ContactMain = () => {
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="CodeVelvet Office - United Shopping Plaza"
+              title="VEVLET Office - United Shopping Plaza"
             />
           </div>
         </div>

@@ -8,7 +8,7 @@ import ServicesMain from "@/components/services/ServicesMain";
 import UnlockComponent from "@/components/UnlockComponent";
 
 export const metadata = {
-  title: "CodeVelvet | Software Development & AI Company in Pakistan",
+  title: "VEVLET | Software Development & AI Company in Pakistan",
   description:
     "Aptura Tech Solutions engineers intelligent software, AI systems, and digital products. Custom web development, app development, cybersecurity, UI/UX design & IoT solutions from Peshawar, Pakistan.",
   keywords: [
@@ -23,7 +23,7 @@ export const metadata = {
     canonical: "https://apturatechsolutions.tech",
   },
   openGraph: {
-    title: "CodeVelvet | Engineering Intelligence",
+    title: "VEVLET | Engineering Intelligence",
     description:
       "Custom software, AI, web & app development. Trusted by businesses worldwide.",
     url: "https://apturatechsolutions.tech",

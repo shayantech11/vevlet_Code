@@ -58,7 +58,7 @@ const Loader = () => {
   useEffect(() => {
     // Skip if already shown this session
     try {
-      if (sessionStorage.getItem("codevelvet_loaded")) {
+      if (sessionStorage.getItem("VEVLET_loaded")) {
         setDismissed(true);
         return;
       }
@@ -67,7 +67,7 @@ const Loader = () => {
     // Dismiss after animation completes (~3.6s)
     const timer = setTimeout(() => {
       setDismissed(true);
-      try { sessionStorage.setItem("codevelvet_loaded", "1"); } catch (e) {}
+      try { sessionStorage.setItem("VEVLET_loaded", "1"); } catch (e) {}
     }, 3800);
 
     return () => clearTimeout(timer);
@@ -158,14 +158,14 @@ const Loader = () => {
           100% { opacity: 0; transform: scale(0) translate(var(--sp-dx), var(--sp-dy)); }
         }
 
-        .codevelvet-loader-root {
+        .VEVLET-loader-root {
           animation: loaderExit 3.8s cubic-bezier(0.76, 0, 0.24, 1) forwards;
         }
       `}} />
 
       <div
         ref={containerRef}
-        className="codevelvet-loader-root fixed inset-0 z-[9999] flex flex-col items-center justify-center overflow-hidden"
+        className="VEVLET-loader-root fixed inset-0 z-[9999] flex flex-col items-center justify-center overflow-hidden"
         style={{
           background: "radial-gradient(ellipse at 50% 40%, #111215 0%, #0A0A0B 60%, #050506 100%)",
         }}
@@ -324,7 +324,7 @@ const Loader = () => {
             className="font-heading text-[1.6rem] sm:text-[1.85rem] font-bold text-white"
             style={{ letterSpacing: "0.5em", paddingLeft: "0.5em" }}
           >
-            CODEVELVET
+            VEVLET
           </span>
           <span
             className="text-[0.6rem] sm:text-[0.65rem] font-medium tracking-[0.35em] text-[#5f9ea0]/70 uppercase"

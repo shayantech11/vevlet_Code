@@ -10,13 +10,13 @@ import Loader from "@/components/Loader";
 export const metadata = {
   metadataBase: new URL("https://apturatechsolutions.tech"),
   title: {
-    default: "CodeVelvet | Software Development & AI Company in Pakistan",
-    template: "%s | CodeVelvet",
+    default: "VEVLET | Software Development & AI Company in Pakistan",
+    template: "%s | VEVLET",
   },
   description:
-    "CodeVelvet is a leading software development company in Pakistan offering Web Development, App Development, AI Solutions, UI/UX Design, Cybersecurity, and IoT services. We engineer intelligent digital products for startups and enterprises.",
+    "VEVLET is a leading software development company in Pakistan offering Web Development, App Development, AI Solutions, UI/UX Design, Cybersecurity, and IoT services. We engineer intelligent digital products for startups and enterprises.",
   keywords: [
-    "CodeVelvet",
+    "VEVLET",
     "software development company Pakistan",
     "web development Peshawar",
     "AI solutions Pakistan",
@@ -34,9 +34,9 @@ export const metadata = {
     "Peshawar tech company",
     "software house Pakistan",
   ],
-  authors: [{ name: "CodeVelvet", url: "https://apturatechsolutions.tech" }],
-  creator: "CodeVelvet",
-  publisher: "CodeVelvet",
+  authors: [{ name: "VEVLET", url: "https://apturatechsolutions.tech" }],
+  creator: "VEVLET",
+  publisher: "VEVLET",
   formatDetection: {
     email: false,
     address: false,
@@ -49,8 +49,8 @@ export const metadata = {
     type: "website",
     locale: "en_US",
     url: "https://apturatechsolutions.tech",
-    siteName: "CodeVelvet",
-    title: "CodeVelvet | Software Development & AI Company",
+    siteName: "VEVLET",
+    title: "VEVLET | Software Development & AI Company",
     description:
       "We engineer intelligent software, AI systems, and digital products. Custom web & app development, cybersecurity, and IoT solutions for businesses worldwide.",
     images: [

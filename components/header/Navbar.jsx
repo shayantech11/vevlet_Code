@@ -134,7 +134,7 @@ const Navbar = () => {
         >
           <Image
             src="/logoo.png"
-            alt="CodeVelvet Logo"
+            alt="VEVLET Logo"
             width={200}
             height={200}
             quality={100}
@@ -144,7 +144,7 @@ const Navbar = () => {
           />
           <div className="flex flex-col justify-center leading-none">
             <span className="font-heading text-xl md:text-2xl font-bold tracking-[0.05em] text-white leading-none">
-              CODEVELVET
+              VEVLET
             </span>
             <span className="text-[0.65rem] font-medium tracking-[0.3em] text-gray-400 mt-1 uppercase">
               Where Code Meets Elegance

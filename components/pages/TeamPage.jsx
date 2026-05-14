@@ -16,7 +16,7 @@ const LEADERSHIP = [
     role: "Founder & Lead Software Architect",
     roleShort: "Founder",
     img: "/team/muzamil.png.jpeg",
-    bio: "The MERN stack powerhouse behind CodeVelvet. Muzamil architects the systems, handles complex backend deployments, and steps into client meetings to close the deals. As the technical authority of the agency, he ensures every solution is built to scale, perform, and last.",
+    bio: "The MERN stack powerhouse behind VEVLET. Muzamil architects the systems, handles complex backend deployments, and steps into client meetings to close the deals. As the technical authority of the agency, he ensures every solution is built to scale, perform, and last.",
     skills: [
       "MERN Stack",
       "System Architecture",
@@ -32,7 +32,7 @@ const LEADERSHIP = [
     role: "Co founder & Lead Frontend Engineer",
     roleShort: "Co founder & Frontend Lead",
     img: "/team/shayan.png.jpeg",
-    bio: "The craftsman behind every pixel of CodeVelvet's digital presence. Shani owns the Next.js codebase, manages the repository, and ensures every client-facing interface is fast, beautiful, and conversion-focused. He is the dedicated expert ensuring platforms look and feel world-class.",
+    bio: "The craftsman behind every pixel of VEVLET's digital presence. Shani owns the Next.js codebase, manages the repository, and ensures every client-facing interface is fast, beautiful, and conversion-focused. He is the dedicated expert ensuring platforms look and feel world-class.",
     skills: [
       "Next.js & React",
       "UI/UX Implementation",
@@ -48,7 +48,7 @@ const LEADERSHIP = [
     role: "Co founder & Director of Business Development",
     roleShort: "Co founder & Biz Dev",
     img: "/team/mujeebb.png.jpeg",
-    bio: "Mujeeb is on the frontline of CodeVelvet's growth. He hunts the leads, manages outreach, and sets up the initial calls that turn prospects into long-term partners. His Director-level presence instantly establishes credibility with CEOs and business owners from the first conversation.",
+    bio: "Mujeeb is on the frontline of VEVLET's growth. He hunts the leads, manages outreach, and sets up the initial calls that turn prospects into long-term partners. His Director-level presence instantly establishes credibility with CEOs and business owners from the first conversation.",
     skills: [
       "Lead Generation",
       "Client Outreach",
@@ -64,7 +64,7 @@ const LEADERSHIP = [
     role: "Co founder & Growth Strategist",
     roleShort: "Co founder & Growth",
     img: "/team/rafhay.png.jpeg",
-    bio: "Rafhay drives the hustle that keeps CodeVelvet's pipeline full. From pulling Apollo.io prospect lists to firing off targeted LinkedIn outreach, he is the engine behind the agency's client acquisition machine — analytical, aggressive, and always closing.",
+    bio: "Rafhay drives the hustle that keeps VEVLET's pipeline full. From pulling Apollo.io prospect lists to firing off targeted LinkedIn outreach, he is the engine behind the agency's client acquisition machine — analytical, aggressive, and always closing.",
     skills: [
       "Apollo.io & LinkedIn Outreach",
       "Client Acquisition",
@@ -189,7 +189,7 @@ export default function TeamPage() {
             style={{ fontFamily: "var(--font-heading)" }}>
             The Minds{" "}
             <span className="gradient-text" style={{ fontFamily: "var(--font-heading)" }}>
-              Behind CodeVelvet
+              Behind VEVLET
             </span>
           </h1>
 

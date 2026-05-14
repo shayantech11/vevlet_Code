@@ -68,7 +68,7 @@ const timeline = [
     year: "Founded",
     title: "The Beginning",
     description:
-      "CodeVelvet was born from a simple idea \u2014 build technology that actually works for the people using it. No bloat, no shortcuts.",
+      "VEVLET was born from a simple idea \u2014 build technology that actually works for the people using it. No bloat, no shortcuts.",
   },
   {
     year: "Growth",
@@ -452,7 +452,7 @@ export default function AboutUsPage() {
           >
             <div className="h-px w-12 bg-gradient-to-r from-transparent to-[#008080]/50" />
             <span className="text-[#008080] font-mono text-xs tracking-[0.3em] uppercase">
-              About CodeVelvet
+              About VEVLET
             </span>
             <div className="h-px w-12 bg-gradient-to-l from-transparent to-[#008080]/50" />
           </div>
@@ -477,7 +477,7 @@ export default function AboutUsPage() {
             ref={heroDescRef}
             className="text-[#94a3b8] text-lg md:text-xl max-w-3xl mx-auto leading-relaxed"
           >
-            CodeVelvet is a product-minded engineering studio. We
+            VEVLET is a product-minded engineering studio. We
             design, build, and ship intelligent software &mdash; from AI systems
             to full-stack platforms &mdash; for businesses that refuse to settle.
           </p>

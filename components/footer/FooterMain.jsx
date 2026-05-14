@@ -14,7 +14,7 @@ const FooterMain = () => {
       {/* Giant watermark */}
       <div className="absolute bottom-0 left-1/2 -translate-x-1/2 pointer-events-none select-none">
         <span className="text-[8rem] md:text-[14rem] lg:text-[18rem] font-heading font-bold text-white/[0.02] leading-none tracking-tight">
-          CODEVELVET
+          VEVLET
         </span>
       </div>
 
@@ -26,7 +26,7 @@ const FooterMain = () => {
             <Link href="/" className="flex items-center gap-3 group mb-5">
               <Image
                 src="/logoo.png"
-                alt="CODEVELVET Logo"
+                alt="VEVLET Logo"
                 width={200}
                 height={200}
                 quality={100}
@@ -35,7 +35,7 @@ const FooterMain = () => {
               />
               <div className="flex flex-col justify-center leading-none">
                 <span className="font-heading text-xl md:text-2xl font-bold tracking-[0.05em] text-white leading-none">
-                  CODEVELVET
+                  VEVLET
                 </span>
                 <span className="text-[0.6rem] font-medium tracking-[0.3em] text-gray-400 mt-1 uppercase">
                   Where Code Meets Elegance
@@ -168,7 +168,7 @@ const FooterMain = () => {
           <div className="flex items-center gap-2">
             <Image
               src="/logoo.png"
-              alt="CodeVelvet"
+              alt="VEVLET"
               width={50}
               height={50}
               unoptimized={true}
@@ -177,7 +177,7 @@ const FooterMain = () => {
             <p>
               &copy; {new Date().getFullYear()}{" "}
               <Link href="/" className="hover:text-white transition-colors duration-200">
-                CodeVelvet
+                VEVLET
               </Link>
               . All rights reserved.
             </p>
@@ -213,7 +213,7 @@ const FooterMain = () => {
               rel="noopener noreferrer"
               className="text-[#5f9ea0]/50 hover:text-[#f4e1c1] transition-colors duration-300"
             >
-              CodeVELVET
+              VEVLET
             </a>
           </span>
         </div>
